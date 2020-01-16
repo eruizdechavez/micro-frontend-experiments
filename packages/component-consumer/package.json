@@ -1,0 +1,26 @@
+{
+	"name": "component-consumer",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"start": "parcel src/index.html --open",
+		"clean": "rm -rf .cache dist"
+	},
+	"dependencies": {
+		"@types/react": "16.9.17",
+		"@types/react-dom": "16.9.4",
+		"parcel-bundler": "1.12.4",
+		"preact": "10.2.1",
+		"prettier": "1.19.1",
+		"ts-node": "8.5.4",
+		"tslint": "5.20.1",
+		"tslint-config-prettier": "1.18.0",
+		"tslint-plugin-prettier": "2.0.1",
+		"typescript": "3.7.3"
+	},
+	"alias": {
+		"react": "preact/compat",
+		"react-dom/test-utils": "preact/test-utils",
+		"react-dom": "preact/compat"
+	}
+}
