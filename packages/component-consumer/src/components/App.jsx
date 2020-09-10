@@ -4,7 +4,7 @@ export class App extends Component {
 	state = { first: '', last: '', email: '' };
 
 	names = [
-		{ first: 'Erick', last: 'Ruiz de Chavez', email: 'erick.ruizdechavez@fireeye.com' },
+		{ first: 'Erick', last: 'Ruiz de Chavez', email: 'erick.ruiz@example.com' },
 		{ first: 'John', last: 'Doe', email: 'john.doe@example.com' },
 	];
 

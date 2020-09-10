@@ -23,7 +23,7 @@
 		"clean": "rm -rf .stencil dist loader www"
 	},
 	"devDependencies": {
-		"@stencil/core": "^1.8.4"
+		"@stencil/core": "1.17.3"
 	},
 	"license": "MIT",
 	"dependencies": {}
